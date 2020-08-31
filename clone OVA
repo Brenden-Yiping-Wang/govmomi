@@ -1,9 +1,7 @@
-export GOVC_INSECURE=1
 export GOVC_URL=https://111.111.11.111/sdk
 export GOVC_USERNAME=root                              
 export GOVC_PASSWORD=123456@
-export GOVC_DATASTORE=datastore1
-export GOVC_NETWORK="VM Network"
+
 
 
 govc import.spec Downloads/ubuntuserver.ova | python3 -m json.tool > ubuntuserver.json
